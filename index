@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Disha Shah | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://unpkg.com/lucide@latest/dist/lu.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<canvas id="particles"></canvas>
+
+
+<nav class="navbar">
+  <div class="logo"><span>D</span>S</div>
+  <div class="nav-links">
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#contact" class="btn">Hire Me</a>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="profile-glow"></div>
+  <img src="assets/profile.jpg" alt="Disha Shah" class="profile-img">
+
+  <h1><span>Disha</span> Shah</h1>
+  <h2 id="typing"></h2>
+
+  <p class="location">📍 Pune, Maharashtra, India</p>
+
+  <p class="intro">
+    Engineering student passionate about building
+    <span>innovative web solutions</span> and exploring
+    <span>AI-powered technologies</span>.
+  </p>
+
+  <div class="buttons">
+    <a href="mailto:shahdisha2722@gmail.com" class="btn primary">Get in Touch</a>
+    <a href="https://www.linkedin.com/in/disha-shah-9b7975377" target="_blank" class="btn glass">LinkedIn</a>
+  </div>
+</section>
+
+
+<section id="skills" class="section">
+  <h2 class="section-title">Skills & Technologies</h2>
+
+  <div class="skills-grid">
+    <div class="card">
+      <h3>Frontend</h3>
+      <p>HTML, CSS, JavaScript, React, Tailwind</p>
+    </div>
+    <div class="card">
+      <h3>Backend</h3>
+      <p>Python, Node.js, SQL, REST APIs</p>
+    </div>
+    <div class="card">
+      <h3>AI & ML</h3>
+      <p>Generative AI, AI Studio, Content Creation</p>
+    </div>
+    <div class="card">
+      <h3>Tools</h3>
+      <p>Git, VS Code, Figma, Postman</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="experience" class="section">
+  <h2 class="section-title">Work Experience</h2>
+
+  <div class="card">
+    <h3>Full-Stack Developer – Future Interns</h3>
+    <p>Jan 2026 – Present</p>
+    <p>Building scalable full-stack applications using modern technologies.</p>
+  </div>
+
+  <div class="card">
+    <h3>Internship Trainee – iBase Electrosoft LLP</h3>
+    <p>Oct 2025</p>
+    <p>Hands-on experience with real-world development workflows.</p>
+  </div>
+</section>
+
+
+<section id="education" class="section">
+  <h2 class="section-title">Education</h2>
+
+  <div class="card">
+    <h3>Bachelor of Engineering – IT</h3>
+    <p>Dhole Patil College of Engineering & Management</p>
+    <p>2024 – 2028</p>
+  </div>
+</section>
+
+
+<section id="contact" class="section contact">
+  <h2 class="section-title">Let’s Collaborate</h2>
+  <p>Always open to exciting projects and opportunities.</p>
+
+  <a href="mailto:shahdisha2722@gmail.com" class="btn primary big">
+    Send Me an Email
+  </a>
+</section>
+
+<footer>
+  <p>© 2026 Disha Shah • Made with ❤️ in Pune</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
